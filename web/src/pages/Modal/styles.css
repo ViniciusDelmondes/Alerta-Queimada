@@ -1,0 +1,63 @@
+.details-container{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #C4C4C4;
+}
+
+.details-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.informations-area{
+  background-color: white;
+  width: 550px;
+  border-radius: 18px;
+  margin: 40px 178px 40px 220px
+}
+
+.informations-area header img{
+  object-fit: cover;
+  width: 550px;
+  height: 190px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.informations-area header{
+  text-align: center;
+}
+
+.informations-area header h1{
+  font-size: 22px;
+  font-family: 'Roboto Light300', sans-serif;
+  margin-top: 15px;
+}
+
+.informations-area main{
+  margin-top: 22px;
+  margin-left: 25px;
+}
+
+.footer-btn-closed{
+  margin-top: 100px;
+  margin-left: 380px;
+}
+
+footer .btn-closed{
+  width: 130px;
+  height: 25px;
+  background-color: #1B8338;
+  border-radius: 8px;
+
+  border: none;
+  outline: 0;
+}
+
+footer .btn-closed a{
+  color: white;
+  font-family: 'Roboto Light300', sans-serif;
+
+  text-decoration: none;
+  
+}

@@ -1,0 +1,69 @@
+.consult-container {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  display: flex;
+}
+
+.consult-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-selected-state{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.btn-selected-state button{
+  height: 30px;
+  width: 70px;
+  background-color: #1B8338;
+
+  outline: 0;
+  border: none;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.form-search{
+  display: flex;
+  flex-direction: row;
+}
+
+#mapid_consult { 
+  width: 1000px;
+  height: 1000px; 
+  border-radius: 10px;
+}
+
+.map-popup{
+  border-radius: 10px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.map-popup img{
+  width: 350px;
+  height: 200px;
+}
+
+.map-popup img{
+  object-fit: cover;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.map-popup h1{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.map-popup p span{
+  font-weight: bold;
+}

@@ -1,0 +1,74 @@
+.form-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-content header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  background-color: #1C3D23;
+  align-items: center;
+  justify-content: center;
+}
+
+.back a img{
+  float: left;
+  margin-left: -500px;
+}
+
+
+.form-content header .title-form h1{
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Light300', sans-serif;
+  font-style: oblique;
+  font-size: 25px;
+}
+
+.area-form{
+  margin: 30px 120px 20px 150px;
+}
+
+fieldset{
+  border: 0 none;
+  border-style: none;
+  outline: 0;
+  font-family: 'Roboto Light300', sans-serif;
+}
+
+.numbers-area{
+  display: flex;
+  flex-direction: row;
+}
+
+.second-column{
+  position: fixed;
+  margin-top: -450px;
+  margin-left: 560px;
+}
+
+.btn-submit{
+  margin-top: 0px;
+}
+
+.btn-submit button{
+  width: 420px;
+  height: 25px;
+  background-color: #1B8338;
+  color: white;
+
+  border: none;
+  outline: 0;
+
+  cursor: pointer;
+}
+
+#mapid { 
+  width: 840px;
+  margin-top: 20px;
+  height: 400px; 
+  border-radius: 10px;
+}
+

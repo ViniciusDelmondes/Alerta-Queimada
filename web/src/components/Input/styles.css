@@ -1,0 +1,20 @@
+.input-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.input-container label{
+  font-family: 'Roboto';
+}
+
+.input-container input{
+  margin-top: 10px;
+  width: 420px;
+  height: 25px;
+
+  border: none;
+
+  border-bottom: 1px solid #1C3D23;
+  outline: 0;
+}

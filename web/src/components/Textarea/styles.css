@@ -1,0 +1,20 @@
+.textarea-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.textarea-container label{
+  font-family: 'Roboto';
+}
+
+textarea{
+  
+  width: 420px;
+
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #1C3D23;
+
+  outline: 0;
+}

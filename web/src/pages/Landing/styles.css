@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-container{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #1C3D23 73.96%, rgba(28, 61, 35, 0) 100%);
+}
+
+.home-content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 140px;
+  margin-left: 250px;
+}
+
+.home-column-first header{
+  border-bottom: 2px solid white;
+}
+
+.home-column-first header h1{
+  padding-bottom: 10px;
+  color: white;
+  font-family: 'Roboto Medium500', sans-serif;
+}
+
+.home-column-first main{
+  margin-top: 20px;
+}
+
+.home-column-first main p{
+  color: white;
+  font-family: 'Roboto Light300', sans-serif;
+}
+
+footer{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer .btn-report button{
+  border-radius: 8px;
+  width: 130px;
+  height: 25px;
+  background-color: #1B8338;
+
+  border: none;
+  outline: 0;
+
+  margin-right: 15px;
+
+  cursor: pointer;
+}
+
+footer .btn-consult button{
+  border-radius: 8px;
+  width: 130px;
+  height: 25px;
+  background-color: #C4C4C4;
+
+  border: none;
+  outline: 0;
+
+  cursor: pointer;
+}
+
+footer .btn-report button a{
+  text-decoration: none;
+  font-family: 'Roboto Light300', sans-serif;
+  color: white;
+}
+
+footer .btn-consult button a{
+  text-decoration: none;
+  font-family: 'Roboto Light300', sans-serif;
+  color: black;
+}
+
+.home-column-second{
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+.home-column-second header .logo_img{
+  width: 250px;
+}
+
+.home-column-second footer span{
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 12px;
+  color: white;
+  font-family: 'Roboto Light300', sans-serif;
+}
+
+footer img{
+  width: 20px;
+}

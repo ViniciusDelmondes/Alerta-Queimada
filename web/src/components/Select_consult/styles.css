@@ -1,0 +1,19 @@
+.selectconsult-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.selectconsult-container label{
+  font-family: 'Roboto';
+}
+
+.selectconsult-container select{
+  margin-top: 10px;
+  width: 190px;
+  height: 30px;
+
+  border: none;
+  border-bottom: 1px solid #1C3D23;
+}

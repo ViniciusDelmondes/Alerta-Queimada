@@ -1,0 +1,20 @@
+.input-image-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: -230px;
+}
+
+.input-image-container label{
+  font-family: 'Roboto';
+}
+
+.input-image-container input{
+  margin-top: 10px;
+  width: 420px;
+  height: 25px;
+
+  border: none;
+
+  border-bottom: 1px solid #1C3D23;
+  outline: 0;
+}

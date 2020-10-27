@@ -1,0 +1,56 @@
+.alert-container{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #1C3D23;
+}
+
+.alert-content{
+  padding-top: 120px;
+}
+
+.alert-title{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-content header h1{
+  color: white;
+  font-family: 'Roboto Medium500', sans-serif;
+}
+
+.alert-content header span{
+  color: white;
+  font-family: 'Roboto Light300', sans-serif;
+}
+
+.img-sucess img{
+  width: 100px;
+  margin-left: 15px;
+}
+
+.footer-btn{
+  justify-content: center;
+  align-items: center;
+}
+
+footer .btn-next{
+  width: 150px;
+  height: 25px;
+
+  border-radius: 8px;
+  background-color: #1B8338;
+
+  border: none;
+  outline: 0;
+}
+
+footer .btn-next a{
+  color: white;
+  font-family: 'Roboto Light300', sans-serif;
+
+  text-decoration: none;
+}

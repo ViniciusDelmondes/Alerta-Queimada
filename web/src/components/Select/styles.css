@@ -1,0 +1,23 @@
+.select-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.select-container label{
+  font-family: 'Roboto';
+}
+
+.select-container select{
+  margin-top: 10px;
+  width: 415px;
+  height: 30px;
+
+  border: none;
+  border-bottom: 1px solid #1C3D23;
+}
+
+.box-content-header-title{
+  display: flex;
+  flex-direction: column;
+}

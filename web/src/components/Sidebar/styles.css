@@ -1,0 +1,42 @@
+aside{
+  z-index: 99;
+}
+
+aside img:first-child{
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.header-content{
+  text-align: center;
+  padding-top: 50px;
+}
+
+aside header img{
+  width: 100px;
+}
+
+.sidebar-content aside{
+  width: 300px;
+  height: 100vh;
+  background-color: #1C3D23;
+}
+
+header h2{
+  color: white;
+  font-family: 'Roboto Medium500', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.footer-content{
+  text-align: center;
+  justify-content: center;
+}
+
+.sidebar-content span{
+  color: white;
+  font-family: 'Roboto Medium500', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
