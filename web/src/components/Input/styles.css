@@ -18,3 +18,22 @@
   border-bottom: 1px solid #1C3D23;
   outline: 0;
 }
+
+@media(min-width: 425px) and (max-width: 600px){
+  .input-container input{
+    width: 400px;
+  }
+}
+
+
+@media(min-width: 375px) and (max-width: 400px){
+  .input-container input{
+    width: 270px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+  .input-container input{
+    width: 280px;
+  }
+}

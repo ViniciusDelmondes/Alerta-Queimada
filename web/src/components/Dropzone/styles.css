@@ -39,3 +39,21 @@
   height: 24px;
   margin-bottom: 8px;
 }
+
+@media(min-width: 425px) and (max-width: 600px){
+  .dropzone {
+    width: 460px;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 400px){
+  .dropzone {
+    width: 325px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+  .dropzone {
+    width: 370px;
+  }
+}

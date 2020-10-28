@@ -18,3 +18,21 @@ textarea{
 
   outline: 0;
 }
+
+@media(min-width: 425px) and (max-width: 600px){
+  textarea{
+    width: 400px;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 400px){
+  textarea{
+    width: 270px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+  textarea{
+    width: 280px;
+  }
+}

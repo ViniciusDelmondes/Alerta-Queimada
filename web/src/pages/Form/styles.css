@@ -50,7 +50,7 @@ fieldset{
 }
 
 .btn-submit{
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .btn-submit button{
@@ -70,5 +70,151 @@ fieldset{
   margin-top: 20px;
   height: 400px; 
   border-radius: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1025px){
+  .area-form{
+    margin: 40px 30px 20px 30px;
+  }
+
+  .back a img{
+    margin-left: -360px;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1290px){
+  .area-form{
+    margin: 80px 150px 20px 220px;
+  }
+
+  .back a img{
+    margin-left: -550px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+  .area-form{
+    margin: 50px 100px 100px 160px;
+  }
+
+  .second-column{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .back a img{
+    margin-left: -230px;
+  }
+}
+
+@media(max-width: 767px) and (min-width: 601px){
+  .area-form{
+    margin: 50px 100px 100px 70px;
+  }
+
+  .second-column{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .back a img{
+    margin-left: -320px;
+  }
+
+  .form-content header .title-form h1{
+    margin-left: -170px;
+    font-size: 22px;
+  }
+}
+
+@media(min-width: 425px) and (max-width: 600px){
+  .area-form{
+    margin: 50px 100px 100px 10px;
+  }
+
+  .second-column{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  #mapid { 
+    width: 810px;
+  }
+
+  .back a img{
+    margin-left: -80px;
+  }
+
+  .btn-submit button{
+    width: 400px;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 400px){
+  .area-form{
+    margin: 20px 100px 100px 45px;
+  }
+
+  .form-content header .title-form h1{
+    margin-left: -40px;
+    font-size: 20px;
+  }
+
+  .back a img{
+    margin-left: -90px;
+    width: 20px;
+  }
+
+  #mapid { 
+    width: 540px;
+  }
+
+  .second-column{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  fieldset{
+    font-size: 12px;
+  }
+
+  .btn-submit button{
+    width: 280px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+  .area-form{
+    margin: 20px 100px 100px 20px;
+  }
+
+  .form-content header .title-form h1{
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  .back a img{
+    margin-left: -30px;
+    width: 20px;
+  }
+
+  fieldset{
+    font-size: 12px;
+  }
+
+  .second-column{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  #mapid { 
+    width: 600px;
+  }
+
 }
 
