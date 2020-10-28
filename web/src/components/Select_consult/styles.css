@@ -17,3 +17,15 @@
   border: none;
   border-bottom: 1px solid #1C3D23;
 }
+
+@media(max-width: 630px) and (min-width: 450px){
+  .selectconsult-container{
+    margin-left: 10px;
+  }
+
+  .selectconsult-container select{
+ 
+    width: 130px;
+    
+  }
+}

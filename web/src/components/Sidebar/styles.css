@@ -40,3 +40,14 @@ header h2{
   font-size: 15px;
   margin-top: 20px;
 }
+
+@media(max-width: 630px) and (min-width: 450px){
+  .sidebar-content aside{
+    width: 150px;
+
+  }
+
+  .sidebar-content span{
+    margin-left: -50px;
+  }
+}

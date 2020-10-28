@@ -46,6 +46,17 @@
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #C0C0C0;
+}
+
 .map-popup img{
   width: 350px;
   height: 200px;
@@ -68,3 +79,13 @@
   font-weight: bold;
 }
 
+@media(max-width: 630px) and (min-width: 450px){
+  .form-search{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-selected-state button{
+    margin-left: 0px;
+  }
+}
