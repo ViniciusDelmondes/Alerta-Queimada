@@ -24,7 +24,7 @@ export default class UsersController {
             const serializedPoints = states.map(state => {
                 return {
                     ...state,
-                    image_url: `http://192.168.15.6:3333/uploads/${state.image}`
+                    image_url: `http://192.168.15.7:3333/uploads/${state.image}`
                 }
             })
 

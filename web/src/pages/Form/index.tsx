@@ -70,9 +70,11 @@ function Form(){
       data.append('image', selectedFile);
     }
 
-    await api.post('points', data);
- 
-    history.push('/sucess');
+    await api.post('points', data).then(() => {
+      history.push('/sucess');
+    }).catch(() => {
+      return alert('Erro no cadastro, por favor preencha os campos necessários!')
+    })
   }
 
   return (
