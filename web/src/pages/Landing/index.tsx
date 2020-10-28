@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 import './styles.css'
 
 import Logo from '../../assets/Logo.png'
-import Aviso from '../../assets/aviso.png'
 
 function Landing(){
   return(

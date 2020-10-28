@@ -60,10 +60,12 @@ footer .btn-consult button{
   border-radius: 8px;
   width: 130px;
   height: 25px;
-  background-color: #C4C4C4;
+  background-color: #FFFFFF;
 
   border: none;
   outline: 0;
+
+  margin-right: 15px;
 
   cursor: pointer;
 }
@@ -99,4 +101,126 @@ footer .btn-consult button a{
 
 footer img{
   width: 20px;
+}
+
+@media (min-width: 1024px) and (max-width: 1025px){
+  .home-content{
+    margin-top: 160px;
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1290px){
+  .home-content{
+    margin-top: 180px;
+    margin-left: 260px;
+  }
+
+  .home-column-first header h1{
+    font-size: 45px;
+  }
+
+  .home-column-first main p{
+    font-size: 17px;
+  }
+
+  footer .btn-report button{
+    width: 170px;
+    height: 25px;
+  }
+
+  footer .btn-consult button{
+    width: 170px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+  .home-content{
+    margin-top: 130px;
+    margin-left: 90px;
+  }
+
+  .home-column-first header h1{
+    font-size: 25px;
+  }
+
+  .home-column-first main p{
+    font-size: 12px;
+  }
+
+  footer .btn-report button{
+    width: 130px;
+    height: 25px;
+  }
+
+  footer .btn-consult button{
+    width: 130px;
+    height: 25px;
+  }
+
+  .home-column-second header .logo_img{
+    width: 180px;
+  }
+
+  .home-column-second{
+    margin-top: -10px;
+  }
+}
+
+@media(max-width: 767px) and (min-width: 601px){
+  .home-content{
+    margin-left: 80px;
+  }
+}
+
+@media(min-width: 425px) and (max-width: 600px){
+  .home-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+  .home-column-first header h1{
+    font-size: 25px;
+  }
+
+  .home-column-first main p{
+    font-size: 15px;
+  }
+
+  .home-column-second header .logo_img{
+    display: none;
+  }
+
+  footer{
+    margin-left: 50px;
+  }
+}
+
+@media(min-width: 375px) and (max-width: 400px){
+  .home-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+  .home-column-second header .logo_img{
+    display: none;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+  .home-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+  .home-column-second header .logo_img{
+    display: none;
+  }
 }
